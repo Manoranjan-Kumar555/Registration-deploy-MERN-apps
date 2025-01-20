@@ -29,7 +29,7 @@ const Signup = () => {
         // call to API
 
         try{
-            const url = "http://localhost:8080/auth/signup";
+            const url = "https://registration-deploy-mern-apps-api6.vercel.app/auth/signup";
             const response = await fetch(url,
                 {
                     method: "POST",
